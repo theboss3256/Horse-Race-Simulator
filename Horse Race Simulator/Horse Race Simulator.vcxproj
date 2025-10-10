@@ -130,11 +130,13 @@
     <ClCompile Include="Betting.cpp" />
     <ClCompile Include="Horse Race Simulator.cpp" />
     <ClCompile Include="Horse.cpp" />
+    <ClCompile Include="Race.cpp" />
     <ClCompile Include="Track.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Betting.h" />
     <ClInclude Include="Horse.h" />
+    <ClInclude Include="Race.h" />
     <ClInclude Include="Track.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

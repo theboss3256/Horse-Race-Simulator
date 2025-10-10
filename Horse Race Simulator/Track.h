@@ -1,18 +1,13 @@
 #pragma once
 #include <string>
-#include <iostream>
+#include "Horse.h"
 using namespace std;
-class Track
-{
+
+class Track {
 public:
-    Track(string n, int lgth, string srf, bool lr, int cond, float purse, string loc);
-private:
+    Track(string n, int lgth, TrackSurface srf);
+
     string name;
     int length;
-    string surface;
-    bool layout;
-    int condition;
-    float purse;
-    string location;
+    TrackSurface surface;
 };
-

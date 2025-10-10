@@ -1,26 +1,38 @@
 #pragma once
 #include <string>
-#include <iostream>
+#include <cstdlib>
 using namespace std;
-enum RunningStyle{FrontRunner,PaceChaser,LateSurger,EndCloser};
-enum TrackSurface{Dirt,Turf};
-struct TrackType{
-	string length;
-	TrackSurface surface;
+
+enum RunningStyle { FrontRunner, PaceChaser, LateSurger, EndCloser };
+enum TrackSurface { Dirt, Turf };
+
+struct TrackType {
+    string length;
+    TrackSurface surface;
 };
 
-class Horse
-{
+class Horse {
 public:
-	Horse(string n, float spd, float acc, float sta, int cond, RunningStyle style, TrackType t, float hand);
-private:
+    Horse(string n, float spd, float acc, float sta,
+        RunningStyle style, TrackType t, float hand);
+    void resetRace();
+    void assignMood();
+    void runTick(float deltaTime);
+
+    static float raceDistance;
+    float finishTime;
     string name;
-    int speed;
-    int stamina;
-    int acceleration;
-    int condition;
+    float speed;
+    float acceleration;
+    float stamina;
     RunningStyle runningStyle;
     TrackType track;
-    int handling;
-};
+    float handling;
 
+    float currentStamina;
+    float distanceCovered;
+    bool finished;
+
+private:
+    int mood;
+};
