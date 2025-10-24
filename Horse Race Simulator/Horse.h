@@ -17,8 +17,8 @@ public:
         RunningStyle style, TrackType t, float hand);
     void resetRace();
     void assignMood();
-    void runTick(float deltaTime);
-
+    void runTick(float deltaTime, float raceDistance, float targetTime, float averageBaseSpeed);
+    float currentVelocity = 0.0f;
     static float raceDistance;
     float finishTime;
     string name;
@@ -28,7 +28,6 @@ public:
     RunningStyle runningStyle;
     TrackType track;
     float handling;
-
     float currentStamina;
     float distanceCovered;
     bool finished;
