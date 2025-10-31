@@ -13,8 +13,7 @@ struct TrackType {
 
 class Horse {
 public:
-    Horse(string n, float spd, float acc, float sta,
-        RunningStyle style, TrackType t, float hand);
+    Horse(string n, float spd, float acc, float sta);
     void resetRace();
     void assignMood();
     void runTick(float deltaTime, float raceDistance, float targetTime, float averageBaseSpeed);
@@ -31,7 +30,11 @@ public:
     float currentStamina;
     float distanceCovered;
     bool finished;
+    std::string getName() const { return name; }
+    float getSpeed() const { return speed; }
+    float getAcceleration() const { return acceleration; }
+    float getStamina() const { return stamina; }
+    int mood;
 
 private:
-    int mood;
 };

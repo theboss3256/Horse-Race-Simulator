@@ -1,0 +1,28 @@
+=== RACE RESULTS ===
+Track: 2000 Guineas Stakes
+Location: UK
+Distance: 1600m
+Surface: Turf
+Layout: Righthanded
+
+--- PLACINGS ---
+1. Aurora Dash (Speed: 11.136, Acceleration: 10, Stamina: 11)
+2. Iron Hoof (Speed: 11.136, Acceleration: 12, Stamina: 8)
+3. Night Whisper (Speed: 11.136, Acceleration: 10, Stamina: 10)
+4. Golden Comet (Speed: 12, Acceleration: 6, Stamina: 14)
+5. Golden Mane (Speed: 11.136, Acceleration: 10, Stamina: 9)
+6. Thunder Strike (Speed: 11.136, Acceleration: 13, Stamina: 9)
+7. Mystic Bolt (Speed: 14, Acceleration: 7, Stamina: 13)
+8. Wind Runner (Speed: 11.136, Acceleration: 15, Stamina: 13)
+9. Iron Shadow (Speed: 14, Acceleration: 9, Stamina: 6)
+10. Crimson Tide (Speed: 11.136, Acceleration: 12, Stamina: 9)
+11. Swift Echo (Speed: 11.136, Acceleration: 6, Stamina: 8)
+12. Shooting Star (Speed: 11.136, Acceleration: 13, Stamina: 8)
+13. Gale Force (Speed: 11.136, Acceleration: 14, Stamina: 7)
+14. Firebrand (Speed: 11.136, Acceleration: 6, Stamina: 8)
+15. Phantom Stride (Speed: 11.136, Acceleration: 6, Stamina: 11)
+16. Shadow Dancer (Speed: 11.136, Acceleration: 12, Stamina: 8)
+17. Storm Breaker (Speed: 11.136, Acceleration: 6, Stamina: 13)
+18. Emerald Spirit (Speed: 13, Acceleration: 5, Stamina: 9)
+19. Sunset Gallop (Speed: 11.136, Acceleration: 14, Stamina: 15)
+20. Blazing Comet (Speed: 11.136, Acceleration: 11, Stamina: 9)

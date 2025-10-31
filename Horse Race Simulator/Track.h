@@ -11,4 +11,10 @@ public:
     int length;
     bool surface;
     int racers;
+    std::string getName() const { return name; }
+    std::string getLocation() const { return location; }
+    bool getLayout() const { return layout; }
+    int getLength() const { return length; }
+    bool getSurface() const { return surface; }
+    int getRacers() const { return racers; }
 };

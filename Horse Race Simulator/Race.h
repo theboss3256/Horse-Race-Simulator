@@ -18,4 +18,5 @@ private:
     Track track;
     vector<Horse*> horses;
     bool finished;
+    void drawRace();
 };

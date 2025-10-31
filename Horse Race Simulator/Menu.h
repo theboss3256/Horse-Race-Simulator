@@ -3,20 +3,23 @@
 #include "Horse.h"
 #include "Race.h"
 #include "Track.h"
-#include "Betting.h"
 #include "Simulation.h"
 class Menu {
 public:
     static void showMainMenu();     
     static Track currentTrack;
     static void customTrackCreator();
+    static std::vector<Horse> horses;
+    static void startRace();
 private:
     static int nOption;
     static void configureRace();           
     static void createHorse();
+    static void generateHorse();
+    static void randomHorse();
     static void drawHorseMenu();
-    static void showHorseStats();          
-    static void startRace();               
+    static void showHorses();
+    static void exportRaceResults(const std::vector<Horse>& horses, const Track& track);
     static void showResults();             
     static void placeBets();              
     static void createTrack();
@@ -28,7 +31,6 @@ private:
     static void trackSelector();
     
     // Internal state
-    std::vector<Horse*> horses;
     Track currentTrack2;
     Race* currentRace;
     int raceDistance;
